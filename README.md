@@ -218,16 +218,6 @@ flutter test
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Collect flow (payment request links)
-- [ ] QR Code generation
-- [ ] Subscription / recurring payments
-- [ ] Webhook signature verification helper
-- [ ] In-app UPI PIN entry (NPCI certified)
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
