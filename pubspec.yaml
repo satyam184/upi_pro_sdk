@@ -1,8 +1,13 @@
 name: upi_pro_sdk
-description: Production-grade Flutter plugin for UPI app discovery and payment initiation.
+description: >-
+  A production-grade Flutter SDK for UPI (Unified Payments Interface) integration.
+  Supports UPI intent, deep linking, payment status polling, VPA validation,
+  and multi-app UPI launchers - all in one package.
 version: 0.1.0
-homepage: https://example.com/upi_pro_sdk
-repository: https://example.com/upi_pro_sdk
+homepage: https://github.com/satyam184/upi_pro_sdk
+repository: https://github.com/satyam184/upi_pro_sdk
+issue_tracker: https://github.com/satyam184/upi_pro_sdk/issues
+documentation: https://pub.dev/documentation/upi_pro_sdk/latest/
 
 environment:
   sdk: ^3.10.3
@@ -26,3 +31,10 @@ flutter:
         pluginClass: UpiProSdkPlugin
       ios:
         pluginClass: UpiProSdkPlugin
+
+topics:
+  - upi
+  - payments
+  - fintech
+  - india
+  - flutter
