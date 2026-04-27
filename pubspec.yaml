@@ -1,0 +1,28 @@
+name: upi_pro_sdk
+description: Production-grade Flutter plugin for UPI app discovery and payment initiation.
+version: 0.1.0
+homepage: https://example.com/upi_pro_sdk
+repository: https://example.com/upi_pro_sdk
+
+environment:
+  sdk: ^3.10.3
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.upipro.upi_pro_sdk
+        pluginClass: UpiProSdkPlugin
+      ios:
+        pluginClass: UpiProSdkPlugin
