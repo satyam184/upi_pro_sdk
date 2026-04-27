@@ -11,6 +11,12 @@ Supports UPI intent flow, deep links, VPA validation, payment status polling, an
 
 ---
 
+## 📱 Demo
+
+![UPI Pro SDK Demo](assets/demo.gif)
+
+---
+
 ## ✨ Features
 
 - 🚀 **UPI Intent Flow** — Launch any installed UPI app (GPay, PhonePe, Paytm, BHIM, etc.)
@@ -239,3 +245,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 Built with ❤️ for the Indian Flutter developer community.  
 Follows [NPCI UPI Linking Specifications](https://www.npci.org.in/what-we-do/upi/product-overview).
+
