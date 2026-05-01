@@ -214,13 +214,14 @@ flutter test
 
 ## 📋 Supported UPI Apps
 
-| App        | Android | iOS |
-| ---------- | ------- | --- |
-| Google Pay | ✅      | ✅  |
-| PhonePe    | ✅      | ✅  |
-| Paytm      | ✅      | ✅  |
-| BHIM       | ✅      | ✅  |
-| CRED       | ✅      | ✅  |
+| App            | Android | iOS |
+| -------------- | ------- | --- |
+| Google Pay     | ✅      | ✅  |
+| PhonePe        | ✅      | ✅  |
+| Paytm          | ✅      | ✅  |
+| BHIM           | ✅      | ✅  |
+| CRED           | ✅      | ✅  |
+| Other UPI Apps | ✅      | ⚠️  |
 
 ---
 
@@ -245,4 +246,3 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 Built with ❤️ for the Indian Flutter developer community.  
 Follows [NPCI UPI Linking Specifications](https://www.npci.org.in/what-we-do/upi/product-overview).
-
