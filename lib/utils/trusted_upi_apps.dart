@@ -53,6 +53,86 @@ class TrustedUpiApps {
       iosScheme: 'credpay',
       rank: 6,
     ),
+    TrustedUpiApp(
+      displayName: 'Mobikwik',
+      androidPackage: 'com.mobikwik_new',
+      iosScheme: 'mobikwik',
+      rank: 7,
+    ),
+    TrustedUpiApp(
+      displayName: 'Freecharge',
+      androidPackage: 'com.freecharge.android',
+      iosScheme: 'freecharge',
+      rank: 8,
+    ),
+    TrustedUpiApp(
+      displayName: 'Airtel Thanks',
+      androidPackage: 'com.myairtelapp',
+      iosScheme: 'myairtel',
+      rank: 9,
+    ),
+    TrustedUpiApp(
+      displayName: 'Truecaller Pay',
+      androidPackage: 'com.truecaller',
+      iosScheme: 'truecaller',
+      rank: 10,
+    ),
+    TrustedUpiApp(
+      displayName: 'WhatsApp Pay',
+      androidPackage: 'com.whatsapp',
+      iosScheme: 'whatsapp',
+      rank: 11,
+    ),
+    TrustedUpiApp(
+      displayName: 'Mi Pay',
+      androidPackage: 'com.mipay.in.wallet',
+      rank: 12,
+    ),
+    TrustedUpiApp(
+      displayName: 'PayZapp',
+      androidPackage: 'com.enstage.wibmo.hdfc',
+      rank: 13,
+    ),
+    TrustedUpiApp(
+      displayName: 'iMobile (ICICI)',
+      androidPackage: 'com.csam.icici.bank.imobile',
+      iosScheme: 'imobileapp',
+      rank: 14,
+    ),
+    TrustedUpiApp(
+      displayName: 'SBI Pay',
+      androidPackage: 'com.sbi.upi',
+      rank: 15,
+    ),
+    TrustedUpiApp(
+      displayName: 'Axis Pay',
+      androidPackage: 'com.upi.axispay',
+      rank: 16,
+    ),
+    TrustedUpiApp(
+      displayName: 'HDFC Bank',
+      androidPackage: 'com.snapwork.hdfc',
+      iosScheme: 'hdfcnewbb',
+      rank: 17,
+    ),
+    TrustedUpiApp(
+      displayName: 'MyJio',
+      androidPackage: 'com.jio.myjio',
+      iosScheme: 'myJio',
+      rank: 18,
+    ),
+    TrustedUpiApp(
+      displayName: 'FamPay',
+      androidPackage: 'com.fampay.in',
+      iosScheme: 'in.fampay.app',
+      rank: 19,
+    ),
+    TrustedUpiApp(
+      displayName: 'LazyPay',
+      androidPackage: 'com.citrus.citruspay',
+      iosScheme: 'www.citruspay.com',
+      rank: 20,
+    ),
   ];
 
   static TrustedUpiApp? byAndroidPackage(String? packageName) {
