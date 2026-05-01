@@ -40,7 +40,6 @@ Future<UpiApp?> showUpiAppPickerBottomSheet(
                   return ListTile(
                     leading: _UpiAppIcon(app: app),
                     title: Text(app.name),
-                    subtitle: Text(app.identifier),
                     onTap: () => Navigator.of(context).pop(app),
                   );
                 },
@@ -73,9 +72,7 @@ class _UpiAppIcon extends StatelessWidget {
     }
     return CircleAvatar(
       radius: 18,
-      child: Text(
-        app.name.isNotEmpty ? app.name[0].toUpperCase() : '?',
-      ),
+      child: Text(app.name.isNotEmpty ? app.name[0].toUpperCase() : '?'),
     );
   }
 }
